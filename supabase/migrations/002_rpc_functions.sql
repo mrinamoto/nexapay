@@ -510,8 +510,8 @@ begin
     raise exception 'Authentication is required.';
   end if;
 
-  select a, p
-    into v_agent, v_agent_profile
+  select a.*
+    into v_agent
   from public.agents a
   join public.profiles p on p.id = a.user_id
   where a.id = p_agent_id
@@ -521,6 +521,15 @@ begin
 
   if v_agent.id is null then
     raise exception 'Active registered demo agent was not found.';
+  end if;
+
+  select p.*
+    into v_agent_profile
+  from public.profiles p
+  where p.id = v_agent.user_id;
+
+  if v_agent_profile.id is null then
+    raise exception 'Active demo agent profile was not found.';
   end if;
 
   select *

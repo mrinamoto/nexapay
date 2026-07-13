@@ -1,0 +1,3 @@
+-- Convenience pointer for Supabase SQL Editor review.
+-- Source of truth: supabase/migrations/003_rls_policies.sql
+-- Phase 18 makes that migration complete, hardened, and safe to rerun.

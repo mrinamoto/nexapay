@@ -1,0 +1,10 @@
+<svg width="260" height="72" viewBox="0 0 260 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NexaPay logo</title>
+  <desc id="desc">A fictional fintech logo with an angular N mark and NexaPay wordmark.</desc>
+  <rect width="72" height="72" rx="16" fill="#25235F"/>
+  <path d="M18 50V20h8.5l19.4 25.2V20H55v32h-8.6L27 26.7V50h-9Z" fill="#F7FBFF"/>
+  <path d="M19 52.5 55 19.5" stroke="#00C2D9" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="55" cy="19" r="5" fill="#F8B84E"/>
+  <path d="M94.2 21.2h7.5l20.1 26.1V21.2h8.1V59h-7.1l-20.5-26.8V59h-8.1V21.2Zm46.7 9h25.8v6.6h-18.1v5.1h16.4v6.2h-16.4v4.3h18.4V59h-26.1V30.2Zm34.7 0h8.8l6.7 9.3 6.8-9.3h8.5l-11 14.1L207.1 59h-8.8l-7.4-10.1-7.5 10.1h-8.5l11.7-14.7-11-14.1Zm44.8-.6c8.4 0 13.5 4.7 13.5 12.9V59h-7.5v-3.5c-2 2.6-5.1 4.1-9.1 4.1-5.7 0-9.7-3.2-9.7-8.4 0-5.8 4.4-8.9 12.1-8.9h6.4v-.3c0-3.6-2.2-5.7-6.5-5.7-2.8 0-6.2.9-8.9 2.6l-2.3-5.8c3.8-2.2 7.6-3.5 12-3.5Zm-1.1 24.3c3.4 0 6.1-1.8 6.8-4.4v-2.5h-5.7c-3.8 0-5.6 1.2-5.6 3.7 0 2 1.7 3.2 4.5 3.2Z" fill="#25235F"/>
+  <path d="M235.8 30.2h7.9v4.1c2.1-2.9 5.5-4.7 9.7-4.7 7.3 0 12.5 6.1 12.5 15.1s-5.2 15.1-12.7 15.1c-4.1 0-7.3-1.6-9.5-4.4v14.4h-7.9V30.2Zm15 22.8c4.1 0 7.1-3.3 7.1-8.3s-3-8.3-7.1-8.3c-4.2 0-7.2 3.3-7.2 8.3s3 8.3 7.2 8.3Z" fill="#00A6C7"/>
+</svg>

@@ -1,0 +1,144 @@
+@media (max-width: 1060px) {
+  .app-stage {
+    grid-template-columns: minmax(0, 1fr) minmax(320px, var(--mobile-width));
+  }
+
+  .side-panel.right {
+    display: none;
+  }
+}
+
+@media (max-width: 760px) {
+  .page-bg {
+    padding: 0;
+  }
+
+  .app-stage {
+    display: block;
+    width: 100%;
+  }
+
+  .side-panel {
+    display: none;
+  }
+
+  .mobile-shell {
+    width: 100%;
+    min-height: calc(100vh - 35px);
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .app-main {
+    min-height: calc(100vh - 35px);
+  }
+
+  .admin-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-sidebar {
+    position: static;
+    height: auto;
+  }
+
+  .admin-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .admin-main {
+    padding: 16px;
+  }
+
+  .admin-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .recommend-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 420px) {
+  .quick-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .demo-login-grid,
+  .metric-grid,
+  .admin-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .balance-value {
+    font-size: 1.7rem;
+  }
+
+  .screen-title h1 {
+    font-size: 1.18rem;
+  }
+
+  .dashboard-hero,
+  .balance-breakdown,
+  .priority-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .notification-item,
+  .contact-result,
+  .merchant-payment-row,
+  .agent-transaction-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .notification-actions,
+  .contact-result > .cluster,
+  .merchant-payment-row .tx-row-meta,
+  .agent-transaction-row .tx-row-meta {
+    justify-content: flex-start;
+  }
+
+  .merchant-payment-row .tx-row-meta,
+  .agent-transaction-row .tx-row-meta {
+    justify-items: start;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .merchant-bars {
+    gap: 6px;
+    padding-inline: 8px;
+  }
+
+  .notification-summary {
+    justify-content: space-between;
+  }
+
+  .grid-2,
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .button {
+    min-width: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

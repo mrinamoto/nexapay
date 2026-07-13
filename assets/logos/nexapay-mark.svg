@@ -1,0 +1,6 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NexaPay mark">
+  <rect width="96" height="96" rx="22" fill="#25235F"/>
+  <path d="M24 67V27h11.3l25.9 33.6V27H72v42H60.5L34.8 35.1V67H24Z" fill="#F7FBFF"/>
+  <path d="M26 70 72 26" stroke="#00C2D9" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="72" cy="25" r="7" fill="#F8B84E"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NexaPay app preview">
+  <rect width="1200" height="720" fill="#F6F8FB"/>
+  <rect x="70" y="60" width="430" height="600" rx="28" fill="#FFFFFF" stroke="#DFE6EF" stroke-width="2"/>
+  <rect x="96" y="92" width="378" height="130" rx="8" fill="#25235F"/>
+  <path d="M126 176V126h14l34 42v-42h14v50h-14l-34-42v42h-14Z" fill="#F7FBFF"/>
+  <circle cx="420" cy="130" r="25" fill="#00B8D9"/>
+  <text x="126" y="270" fill="#172033" font-family="Inter,Arial" font-size="28" font-weight="800">Demo Balance</text>
+  <text x="126" y="324" fill="#25235F" font-family="Inter,Arial" font-size="48" font-weight="900">৳25,000</text>
+  <g fill="#FFFFFF" stroke="#DFE6EF">
+    <rect x="96" y="370" width="82" height="82" rx="8"/>
+    <rect x="194" y="370" width="82" height="82" rx="8"/>
+    <rect x="292" y="370" width="82" height="82" rx="8"/>
+    <rect x="390" y="370" width="82" height="82" rx="8"/>
+    <rect x="96" y="468" width="376" height="72" rx="8"/>
+    <rect x="96" y="556" width="376" height="72" rx="8"/>
+  </g>
+  <g fill="#00B8D9">
+    <circle cx="137" cy="400" r="13"/>
+    <circle cx="235" cy="400" r="13"/>
+    <circle cx="333" cy="400" r="13"/>
+    <circle cx="431" cy="400" r="13"/>
+  </g>
+  <rect x="585" y="92" width="530" height="94" rx="8" fill="#11182C"/>
+  <text x="626" y="136" fill="#FFFFFF" font-family="Inter,Arial" font-size="34" font-weight="900">NexaPay</text>
+  <text x="626" y="164" fill="#A7B4C9" font-family="Inter,Arial" font-size="16">Educational Demo - No Real Money or Financial Transactions</text>
+  <g>
+    <rect x="585" y="230" width="250" height="110" rx="8" fill="#FFFFFF" stroke="#DFE6EF"/>
+    <rect x="865" y="230" width="250" height="110" rx="8" fill="#FFFFFF" stroke="#DFE6EF"/>
+    <rect x="585" y="370" width="250" height="110" rx="8" fill="#FFFFFF" stroke="#DFE6EF"/>
+    <rect x="865" y="370" width="250" height="110" rx="8" fill="#FFFFFF" stroke="#DFE6EF"/>
+  </g>
+  <text x="615" y="286" fill="#25235F" font-family="Inter,Arial" font-size="26" font-weight="800">4 roles</text>
+  <text x="895" y="286" fill="#25235F" font-family="Inter,Arial" font-size="26" font-weight="800">RLS ready</text>
+  <text x="615" y="426" fill="#25235F" font-family="Inter,Arial" font-size="26" font-weight="800">RPC ledger</text>
+  <text x="895" y="426" fill="#25235F" font-family="Inter,Arial" font-size="26" font-weight="800">Receipts</text>
+  <rect x="585" y="536" width="530" height="76" rx="8" fill="#E9FAFD" stroke="#BDEDF5"/>
+  <text x="626" y="581" fill="#07566C" font-family="Inter,Arial" font-size="22" font-weight="800">Fictional brand, fictional data, portfolio-grade simulator</text>
+</svg>

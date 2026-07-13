@@ -1,0 +1,127 @@
+.filter-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+}
+
+.filter-row.wide {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.segmented {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.segment {
+  min-height: 36px;
+  padding: 7px 12px;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-panel);
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.segment.active {
+  border-color: rgba(0, 184, 217, 0.36);
+  background: rgba(0, 184, 217, 0.12);
+  color: var(--color-primary);
+}
+
+.review-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.review-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-line);
+  color: var(--color-muted);
+}
+
+.review-row strong {
+  color: var(--color-ink);
+  text-align: right;
+}
+
+.success-pulse {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(22, 131, 95, 0.14);
+  color: var(--color-success);
+}
+
+.amount-picker {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.amount-picker button {
+  min-height: 40px;
+}
+
+.amount-picker button.selected {
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
+  color: var(--color-primary);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--color-accent) 18%, transparent);
+}
+
+.transaction-row {
+  align-items: flex-start;
+}
+
+.transaction-row .item-copy small {
+  display: block;
+  overflow-wrap: anywhere;
+  color: var(--color-muted-2);
+  font-size: var(--text-xs);
+  line-height: 1.35;
+}
+
+.tx-row-meta {
+  display: grid;
+  gap: 6px;
+  justify-items: end;
+  min-width: 96px;
+  text-align: right;
+}
+
+.tx-row-meta strong {
+  white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+  .filter-row,
+  .filter-row.wide {
+    grid-template-columns: 1fr;
+  }
+
+  .transaction-row {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .tx-row-meta {
+    justify-items: start;
+    padding-left: 52px;
+    text-align: left;
+  }
+
+  .merchant-payment-row .tx-row-meta,
+  .agent-transaction-row .tx-row-meta {
+    padding-left: 0;
+  }
+}

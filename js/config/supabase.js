@@ -1,5 +1,5 @@
-export const SUPABASE_URL = "https://YOUR-PROJECT-REF.supabase.co";
-export const SUPABASE_ANON_KEY = "YOUR_PUBLIC_ANON_KEY";
+export const SUPABASE_URL = "https://azglbpilozbqchatlsbo.supabase.co";
+export const SUPABASE_ANON_KEY = "sb_publishable_TptqySpKd9vZd6GpK7w3rA_ETuGoz1J";
 
 export const isSupabaseConfigured = () =>
   SUPABASE_URL.startsWith("https://") &&
